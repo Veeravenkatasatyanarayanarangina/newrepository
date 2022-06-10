@@ -1,9 +1,8 @@
 package com.automobile;
-
-public abstract class Vehicle
+ abstract public class Vehicle
 {
-	public abstract String getModelName();
-	abstract String getRegistrationNumber();
-	abstract String getOwnerName();
+	abstract public  String getModelName();
+	abstract public String getRegistrationNumber();
+	abstract public String getOwnerName();
 
 }

@@ -32,6 +32,7 @@ public class StackExample
 		System.out.println("last element of the stack is : "+st.peek());
 		System.out.println(st.peek());
 		
+		
 	}
 
 }
