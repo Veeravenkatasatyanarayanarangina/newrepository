@@ -1,0 +1,12 @@
+package hjsgadgjksf;
+
+abstract class Hotel 
+{
+	String hotelname;
+	abstract Hotel();
+	
+	abstract void menu();
+}
+public class Main {
+
+}

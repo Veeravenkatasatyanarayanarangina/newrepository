@@ -1,0 +1,22 @@
+package com.motivity.collection;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+
+public class LinkedHashSetPractice 
+{
+	public static void main(String[] args) 
+	{
+		LinkedHashSet<String> lhs =new LinkedHashSet<String>();
+		lhs.add("satya");
+		lhs.add("noor");
+		lhs.add(null);
+		lhs.add(null);
+		lhs.add("venu");
+		System.out.println(lhs);
+		System.out.println(lhs.contains("venu"));
+		
+		
+	}
+
+}

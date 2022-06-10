@@ -1,0 +1,9 @@
+package com.automobile;
+
+public abstract class Vehicle
+{
+	abstract String getModelName();
+	abstract String getRegistrationNumber();
+	abstract String getOwnerName();
+
+}

@@ -1,0 +1,13 @@
+package com.practice.excrption;
+
+public class NumberException 
+{
+	public static void main(String[] args)
+	{
+		String a= "123";
+		
+		int a = Integer.parseInt(a);
+		
+	}
+
+}

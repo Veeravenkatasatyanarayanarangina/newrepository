@@ -1,0 +1,13 @@
+package com.motivity.interfaces;
+
+public interface Company 
+{	
+	void route();
+	void engineType();
+}
+abstract class Cargo implements Company
+{
+	abstract void maxVolume();
+}
+
+class 

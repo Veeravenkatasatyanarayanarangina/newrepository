@@ -1,0 +1,8 @@
+package com.motivity.interfaces;
+
+public class AbcAirlines
+{
+	static String name = "ABC AIRLINES-INDIA";
+	
+
+}

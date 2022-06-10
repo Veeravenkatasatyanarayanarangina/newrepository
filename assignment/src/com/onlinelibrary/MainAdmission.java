@@ -1,0 +1,11 @@
+package com.onlinelibrary;
+
+public class MainAdmission 
+{
+	public static void main(String[] args) {
+		
+		LibraryUsers user = new KidUsers(12, "hai");
+		user.registerAccount();
+	}
+
+}

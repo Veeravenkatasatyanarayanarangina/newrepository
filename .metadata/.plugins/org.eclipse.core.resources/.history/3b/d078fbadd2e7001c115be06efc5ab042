@@ -1,0 +1,18 @@
+package com.onlinelibrary;
+
+public class AudultUsers implements LibraryUsers
+{
+
+	@Override
+	public void registerAccount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void requestBook(String bookname) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

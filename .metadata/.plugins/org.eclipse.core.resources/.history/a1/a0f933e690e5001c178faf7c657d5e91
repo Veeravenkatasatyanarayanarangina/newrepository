@@ -1,0 +1,8 @@
+package com.motivity.ExInnerClass;
+class Airport
+{
+	
+}
+public class StaticInnerClass {
+
+}

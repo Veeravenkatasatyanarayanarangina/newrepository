@@ -1,0 +1,46 @@
+package com.motivity.interfaces;
+
+class AntonovAn225Mriya extends Cargo
+{
+	String fightname;
+	public AntonovAn225Mriya(String flighttype,String flightname)
+	{
+		this.fightname=flightname;
+		super.flighttype = flighttype;
+		
+	}
+	public String toString() {
+		return "AntonovAn225Mriya [fightname=" + fightname + ", flighttype=" + flighttype + "]";
+	}
+	public void route()
+	{	
+		System.out.println(" russia : miyanmar to russia");
+		
+	}
+	public void time() 
+	{
+		System.out.println("time : 10 hrs....");
+	}
+	void maxVolume() 
+	{
+		System.out.println("volume : 3000 cubic tones....");
+	}
+	
+}
+
+public class CargoMain
+{
+	
+	
+	public static void main(String[] args)
+	{
+		Cargo cargo = new AntonovAn225Mriya("cargo", "AntonovAn225Mriya");
+		System.out.println(cargo);
+		cargo.maxVolume();
+		cargo.route();
+		cargo.time();
+		
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package com.motivity.interfaces;
+
+public interface Company 
+{
+	
+	void route();
+	void engineType();
+}

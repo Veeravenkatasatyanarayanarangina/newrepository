@@ -1,0 +1,24 @@
+package hjsgadgjksf;
+
+abstract class Hotel 
+{
+	String hotellocation;
+	Hotel() {
+	}
+	
+	abstract void menu();
+}
+class Ab extends Hotel
+{
+	String hotellocation;
+
+	
+	void menu() {
+		
+	}
+	
+}
+public class Main 
+{
+
+}

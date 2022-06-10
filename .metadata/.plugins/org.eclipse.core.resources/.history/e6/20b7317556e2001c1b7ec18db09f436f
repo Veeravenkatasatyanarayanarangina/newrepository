@@ -1,0 +1,31 @@
+package org.abcairlines;
+class Plane
+{
+	static int planeno  =102;
+	int seatno;
+}
+class Teju extends Plane
+{
+	static String ticketno = "ABC-123H1";
+	String name ="teju";
+	void passengerDetails()
+	{
+		seatno = 12;
+		System.out.println("passneger name : "+name);
+		System.out.println("passenger tickent no = "+ticketno);
+		System.out.println("passenger seat no : "+seatno);
+		System.out.println("plane number : "+planeno);	
+		
+	}
+}
+
+public class PlaneAndPassenger 
+{
+	public static void main(String[] args) 
+	{
+		Teju teju = new Teju();
+		teju.passengerDetails();
+		
+	}
+
+}

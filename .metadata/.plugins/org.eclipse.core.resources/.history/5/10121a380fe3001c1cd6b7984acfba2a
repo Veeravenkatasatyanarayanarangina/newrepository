@@ -1,0 +1,14 @@
+package com.motivity.interfaces;
+
+public interface AbcAirlines 
+{
+	static String companyname ="ABC-AIRLINES-INDIA";
+	 float price ;
+	 AbcAirlines(float price)
+	 {
+		 this.price=price;
+	}
+	 
+	
+
+}

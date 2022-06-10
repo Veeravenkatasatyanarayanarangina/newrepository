@@ -1,0 +1,19 @@
+package com.practice.excrption;
+
+public class ArrayIndexBoundExample 
+{
+	public static void main(String[] args) 
+	{
+		int arr[]=new int[6];
+		arr[0]= 1;
+		arr[6]=10;
+		for (int i : arr)
+		{
+			System.out.println(i);
+			
+		}
+		
+		
+	}
+
+}

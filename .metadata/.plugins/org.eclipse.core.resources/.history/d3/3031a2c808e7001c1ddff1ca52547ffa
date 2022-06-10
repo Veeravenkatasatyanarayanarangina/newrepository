@@ -1,0 +1,11 @@
+package com.practice.excrption;
+
+public class NegiteveArraySizeExample 
+{
+	public static void main(String[] args) 
+	{
+		int arr[]=new int[-10];
+		
+	}
+
+}

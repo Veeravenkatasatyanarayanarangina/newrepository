@@ -1,0 +1,35 @@
+package com.math;
+
+import java.util.Scanner;
+
+public class Calculator 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int[] arr = new int[6];
+		System.out.println(arr.length);
+		
+	}
+	int[] manipulateArray(int inIntArr[])
+	
+	{
+		int[]  outIntArr = new int[inIntArr.length];
+		for(int i = 0;i<inIntArr.length;i++)
+		if (inIntArr.length/2 !=0)
+		{
+			outIntArr[i]=inIntArr[i];
+			if(i==inIntArr.length-1)
+			{
+				outIntArr[i]=inIntArr.length;
+			}
+			return outIntArr;
+		}
+		else
+		{
+			inIntArr[inIntArr.length-1] =
+		}
+		
+	}
+
+}

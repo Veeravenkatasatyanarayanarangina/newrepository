@@ -1,0 +1,9 @@
+package com.practice.excrption;
+
+public class ClassCastExceptionExample 
+{
+	public static void main(String[] args) {
+		
+	}
+
+}

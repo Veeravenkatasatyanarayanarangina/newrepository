@@ -1,0 +1,9 @@
+package hjsgadgjksf;
+
+public abstract class Hotel 
+{
+	String hotelname;
+
+	abstract public Hotel(String hotelname);
+	
+}

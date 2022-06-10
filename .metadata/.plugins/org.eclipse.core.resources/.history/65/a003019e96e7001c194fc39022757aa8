@@ -1,0 +1,20 @@
+package automobile.vehicle;
+
+import com.aoutomobile.Vehicle;
+
+public class Hero extends Vehicle
+{
+	String getModelName()
+	{
+		return "splenderplus";
+	}
+	 String getRegistrationNumber()
+	 {
+		 return "AP 37 BP 1008";
+	 }
+	String getOwnerName()
+	{
+		return "Subbarao Rangina";
+	}
+
+}

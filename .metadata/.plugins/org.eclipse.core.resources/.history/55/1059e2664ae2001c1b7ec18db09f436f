@@ -1,0 +1,37 @@
+package org.abcairlines;
+
+abstract class flights
+{
+	String crew1;
+	String crew2;
+	String crew3;
+	abstract void crewdetais(String crew1,String crew2,String crew3);
+	abstract void crewdetais(String crew1,String crew2);
+	abstract void crewdetails();
+		
+}
+class Anthov extends flights
+{
+
+	void crewdetais(String crew1, String crew2, String crew3)
+	{
+		System.out.println("anthov [crew1=" + crew1 + ", crew2=" + crew2 + ", crew3=" + crew3 + "]");
+		
+		
+		
+	}
+	void crewdetais(String crew1, String crew2) {
+		System.out.println("flights [crew1=" + crew1 + ", crew2=" + crew2 + ", crew3=" + crew3 + "]");
+		
+	}
+	void crewdetails() {
+		
+		}
+	
+}
+
+public class CheckingCargoFlights 
+{
+	
+
+}

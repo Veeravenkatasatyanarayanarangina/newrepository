@@ -1,0 +1,31 @@
+package com.motivity.interfaces;
+
+class AntonovAn225Mriya extends Cargo
+{
+	String fightname;
+
+	
+	public void route() {
+		
+		
+	}
+
+
+	public void time() {
+		
+		
+	}
+
+	
+	void maxVolume() {
+	
+		
+	}
+	
+}
+
+public class CargoMain
+{
+	
+
+}
