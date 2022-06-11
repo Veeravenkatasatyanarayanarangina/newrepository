@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="hjsgadgjksf.Ab"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport.Luftansa"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport.Indigo"/>
     <fullyQualifiedTypeName name="KingFisher"/>
     <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport"/>
     <fullyQualifiedTypeName name="Passengers"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="org.abcairlines.Xyz"/>
     <fullyQualifiedTypeName name="org.abcairlines.FactoryMethodEx"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.satya.airlines.JdbcConnection"/>
 </qualifiedTypeNameHistroy>
