@@ -4,36 +4,22 @@ public class KidUsers implements LibraryUsers
 {
 	int age;
 	String bookname;
-	
-	
-	
-	public KidUsers(int age, String bookname) {
-		
-		this.age = age;
-		this.bookname = bookname;
-	}
-
+	@Override
 	public void registerAccount() 
 	{
-		if (this.age<12) {
-		System.out.println( "You have successfully registered under a Kids "+"Account");
-		}
-		else
-		{
-			AudultUsers as = new AudultUsers();
-			as.age=this.age;	
-			as.registerAccount();
-			as.requestBook(this.bookname);
-			
-		}
+		System.out.println("success fully Register kid account ");
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void requestBook() 
+	{
+		System.out.println("resubmission for book period is 10 days ;");
+		// TODO Auto-generated method stub
+		
+	}
 	
-	}
+	
 
-	public void requestBook(String bookname) {
-		System.out.println("bookname"+bookname);
-		System.out.println("must return book in 10 days......");
-		
-		
-	}
 
 }

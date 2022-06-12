@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="KingFisher"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport"/>
-    <fullyQualifiedTypeName name="Passengers"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport3.IndianAirlines"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport3"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airport3.IndianAirlines2"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="com.motivity.ExInnerClass.Airlines"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="com.practice.excrption.Cargo"/>
     <fullyQualifiedTypeName name="com.practice.excrption.Airport"/>
     <fullyQualifiedTypeName name="com.practice.excrption.Passenger"/>
     <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
@@ -27,10 +17,8 @@
     <fullyQualifiedTypeName name="music.string.Veena"/>
     <fullyQualifiedTypeName name="music.string.wind.Saxophone"/>
     <fullyQualifiedTypeName name="com.aoutomobile.Vehicle"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.math.Calculator"/>
-    <fullyQualifiedTypeName name="com.onlinelibrary.LibraryUsers"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -39,7 +27,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="com.automobile.Vehicle"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -48,7 +35,6 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.satya.airlines.JdbcConnection"/>
+    <fullyQualifiedTypeName name="com.automobile.Vehicle"/>
+    <fullyQualifiedTypeName name="com.automibile.twowheler.Hero"/>
+    <fullyQualifiedTypeName name="com.automibile.twowheler.Honda"/>
+    <fullyQualifiedTypeName name="com.onlinelibrary.LibraryUsers"/>
+    <fullyQualifiedTypeName name="com.onlinelibrary.AudultUsers"/>
+    <fullyQualifiedTypeName name="com.onlinelibrary.KidUsers"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.onlinelibrary.MainAdmission"/>
+    <fullyQualifiedTypeName name="railwaydetails.Compartment"/>
+    <fullyQualifiedTypeName name="railwaydetails.Firstclass"/>
+    <fullyQualifiedTypeName name="railwaydetails.LadiesCompartment"/>
+    <fullyQualifiedTypeName name="railwaydetails.GeneralCompartment"/>
+    <fullyQualifiedTypeName name="railwaydetails.Luggage"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

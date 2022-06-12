@@ -2,34 +2,33 @@ package com.automibile.twowheler;
 
 import com.automobile.Vehicle;
 
-public class Hero extends Vehicle
+public class Honda extends Vehicle
 {
 
 	@Override
 	public String getModelName() {
 		// TODO Auto-generated method stub
-		return "hero splenderplus";
+		return "honda unicon ";
 	}
 
 	@Override
 	public String getRegistrationNumber() {
 		// TODO Auto-generated method stub
-		return "Ap 37 BP 1008 ";
+		return " Ap 77 z 1234";
 	}
 
 	@Override
 	public String getOwnerName() {
 		// TODO Auto-generated method stub
-		return "satya";
+		return "subbarao";
 	}
-	public float getspeed()
+	public float speed()
 	{
-		return 45.9f;
+		return 50.6f;
 	}
-	public void radio()
+	public void cdPlayer()
 	{
-		System.out.println("radio is not available ");
-	}
+		System.out.println("its supprts cd player ");
 	}
 
-
+}
