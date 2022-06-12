@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: montserret;
+}
+nav{
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    background-color: #34495e;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover
+{
+    border: 1px solid whitesmoke;
+    transition: 1s;
+}
+nav #icon
+{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float:right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width :1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left:60px ;
+    }
+    nav ul {
+        margin-right: 20px;
+    }
+    nav-a{
+        font-size: 17px;
+    }
+}
+@media (max-width :909px)
+{
+    nav #icon{
+        display:block;
+    }
+    nav ul{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    nav li{
+        display:block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+        
+    }
+    
+}
+#welcome_body
+{
+    background-image: url('pexels-maria-tyutina-249581.jpg');
+    background-size: 100% 750px;
+}
+#he
+{
+    color: maroon;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+#strong
+{
+    font-size: 25px;
+}
+#reg_body
+{
+    background-image: url('pexels-photo-3769138.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+}
+#reg_table
+{
+    width: 35%;
+    height: 480px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(8, 181, 249, 0.284);
+    box-shadow: 3px 3px 3px black;
+}
+.reg_label
+{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    text-shadow: 2px 2px 2px lightgreen;
+    
+}
+.reg_input
+{
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px brown;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.button
+{
+    height: 40px;
+    width: 150px;
+    color: gold;
+    background-color: maroon;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0px 0px 7px lightseagreen;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.reg_sup
+{
+    color: red;
+    font-size: 15px;
+}
