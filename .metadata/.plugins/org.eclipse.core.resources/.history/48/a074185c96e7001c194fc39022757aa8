@@ -1,8 +1,0 @@
-package automobile.vehicle;
-
-import com.aoutomobile.Vehicle;
-
-public class Hero extends Vehicle
-{
-
-}

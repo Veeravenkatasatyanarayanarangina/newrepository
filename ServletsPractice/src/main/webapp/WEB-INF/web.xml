@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+	<servlet-name>first</servlet-name>
+	<sevlet-class>com.abc.servletpr.TicketBooking.java</sevlet-class>
+	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>./ticketbooking</url-pattern>
+	
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>airlines ticket booking </title>
+<style>
+body
+{
+background-color: cyan;
+
+}
+
+label
+{
+color: blue;
+margin-top: 10px
+}
+table
+{
+width: 300px;
+height: 200px;
+}
+
+#rq
+{
+color: red;
+}
+
+
+
+
+</style>
+</head>
+<body >
+<br><br><br>
+<h1 align="center">abc airlines online ticket booking </h1>
+<center>
+<form action="./ticketbooking" method="post">
+	<table>
+	<tr>
+	<td><label>enter first name</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="text" placeholder = "enter  first name here " required="required" name = "fname"></td>
+	</tr>
+	<tr>
+	<td><label>enter last name</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="text" placeholder = "enter  last name here " required="required" name = "lname"></td>
+	</tr>
+	<tr>
+	<td><label>enter mobile no</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="text" placeholder = "enter  mobile number here " required="required" name = "mobno"></td>
+	</tr>
+	<tr>
+	<td><label>enter email</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="text" placeholder = "enter email here " required="required" name = "email"></td>
+	</tr>
+	<tr>
+	<td><label>enter passportnumber</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="text" placeholder = "enter  passportnumber here " required="required" name = "passno"></td>
+	</tr>
+	<tr>
+	<td><label>choose from airport</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><select required="required" name = "fromstaion">
+	<option value="Hyderabad">Hyderabad</option>
+	<option value="Delhi">Delhi</option>
+	<option value="Bangoloor">bangoloor</option>
+	<option value="mumbai">mumbai</option>
+	<option value="Pune">Pune</option>
+	<option value="Chennai">Chennai</option>
+	<option value="kolkata">kolakata</option>
+	<option value="goa">Goa</option>
+	<option value="haryana">Haryana</option>
+	<option value="pandichery">pandichery</option>
+	<option value="nepal">nepal</option>
+	<option value="bihar">bihar</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td><label>choose to airport</label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><select required="required" name = "tostaion">
+	<option value="usa">USA</option>
+	<option value="Uk">UK</option>
+	<option value="Australia">Australia</option>
+	<option value="Dubai">Dubai</option>
+	<option value="Kenada">Kenada</option>
+	<option value="parrice">Parrise</option>
+	<option value="Africa">Africa</option>
+	<option value="Westindees">WestIndees</option>
+	<option value="Irland">Irland</option>
+	<option value="Ingland">Ingland</option>
+	<option value="Srilanka">Srilanka</option>
+	<option value="Pakisthan">Pakisthan</option>
+	<option value="Bangladesh">Bangladesh</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td><label>choose your journy date </label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><input type ="date" name="tdate" required="required"></td> 
+	<tr>
+	<td><label>choose your catogory </label><label id = "rq"> *</label></td>
+	<td>:</td>
+	<td><select name="catgiry">
+	<option value="General">General</option>
+	<option value = "Defence Forces">Defence</option>
+	<option value="Students">Student</option>
+	<option value="Doctors">Doctors</option>
+	</select>
+	
+	</tr>
+	<tr>
+	<td><input type = "submit" value="book my ticket"></td>
+	<td></td>
+	<td><input type = "reset" value="clear form"></td>
+	</tr>
+	</table>
+	</form>
+</center>
+
+
+
+</body>
+</html>
