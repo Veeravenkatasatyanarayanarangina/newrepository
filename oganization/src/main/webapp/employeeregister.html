@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+background-color: cyan;
+}
+
+#lft
+{
+	width: 15%;
+	height:900px;
+	border: 1px solid red;
+	float: left;
+}
+#ctr
+{
+	float: left;
+	border: 1px solid green;
+	width: 45%;
+	height : 400px;
+	margin: 50px 0px 0px 40px;
+	
+}
+
+#d1
+{
+	
+	border: 3px solid yellow;
+	border-radius: 5px;
+	background-color: rgb(2,2,2,0.5);
+}
+#h1
+{
+	align-content: center;
+	color: red;
+	margin-left: 550px;
+	font-family: sans-serif;
+}
+#d2
+{
+	background-color: #ffb8a6;
+}
+table
+{
+	
+}
+
+input 
+{
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div id="d1"><h1 id ="h1" >&#9886 employee registration &#9887</h1></div>
+<div id="lft"></div>
+<div id = "ctr">
+	<h1>.....employee Registration....</h1>
+	<form action="RegistrationOfEmployee" method="post" enctype="multipart/form-data">
+	<table>
+	<tr>
+	<td>
+	<label>Enter Your Name</label><small style="color: brown;">(As per SSC)</small>
+	</td>
+	<td> :</td>
+	<td><input type="text" name = "ename" required="required"></td>
+	</tr>
+	<tr>
+	<td>
+	<label>Enter your email  </label>
+	</td>
+	<td> :</td>
+	<td><input type="email" name = "mail"></td>
+	</tr>
+	<tr>
+	<td>
+	<label>Enter your password  </label>
+	</td>
+	<td> :</td>
+	<td><input type="password" name = "password" required="required"></td>
+	</tr>
+	<tr>
+	<td>
+	<label>Enter your designation </label>
+	</td>
+	<td> :</td>
+	<td><input type="text" name = "designation" required="required"></td>
+	</tr>
+	<tr>
+	<td>
+	<label>Enter your employee id </label>
+	</td>
+	<td> :</td>
+	<td><input type="number" name = "empid" required="required"></td>
+	</tr>
+	<tr>
+	<td>
+	<input type="submit" value="apply">
+	</td>
+	<td> :</td>
+	<td><input type="reset" value=""></td>
+	</tr>
+	</table>
+	
+	</form>
+	
+</div>
+</body>
+</html>

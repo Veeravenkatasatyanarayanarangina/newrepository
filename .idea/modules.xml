@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.metadata.iml" filepath="$PROJECT_DIR$/.metadata/.metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HibernateCode/HibernateCode.iml" filepath="$PROJECT_DIR$/HibernateCode/HibernateCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenProject/MavenProject.iml" filepath="$PROJECT_DIR$/MavenProject/MavenProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletsPractice/ServletsPractice.iml" filepath="$PROJECT_DIR$/ServletsPractice/ServletsPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringPractice/StringPractice.iml" filepath="$PROJECT_DIR$/StringPractice/StringPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment/assignment.iml" filepath="$PROJECT_DIR$/assignment/assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectionProject/collectionProject.iml" filepath="$PROJECT_DIR$/collectionProject/collectionProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcprograms/jdbcprograms.iml" filepath="$PROJECT_DIR$/jdbcprograms/jdbcprograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oganization/oganization.iml" filepath="$PROJECT_DIR$/oganization/oganization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postgarasqlprograms/postgarasqlprograms.iml" filepath="$PROJECT_DIR$/postgarasqlprograms/postgarasqlprograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/satyasys/satyasys.iml" filepath="$PROJECT_DIR$/satyasys/satyasys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletsapplication/servletsapplication.iml" filepath="$PROJECT_DIR$/servletsapplication/servletsapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/triningpractice/triningpractice.iml" filepath="$PROJECT_DIR$/triningpractice/triningpractice.iml" />
+    </modules>
+  </component>
+</project>

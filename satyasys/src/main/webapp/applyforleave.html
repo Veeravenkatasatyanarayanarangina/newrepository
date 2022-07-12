@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+body
+{
+background-color: rgb(251, 229, 246);
+}
+
+#d1
+{
+background-color: rgb(239, 251, 198);
+width: 30%;
+height: 70px;
+border-radius: 20px;
+margin-left: 35%;
+text-align: center;
+}
+#ddd
+{
+background-color: rgb(228, 242, 217);
+width: 40%;
+height: 600px;
+margin-top: 30px;
+margin-left: 30%;
+
+box-shadow: 2px 2px 5px rgb(89, 255, 255) ;
+}
+label
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 300px;
+	margin-left: 6px;
+	padding: 2px 2px 3px 2px;
+}
+input,select,textarea 
+{
+width: 60%;
+height: 20px;
+margin-top: 5px;
+margin-left: 15px;
+}
+
+
+
+
+</style>
+<body>
+<form action="applyleave.jsp">
+<div  id = "d1">
+
+<h1 id = "dh">Leave application</h1>
+</div>
+<div id = "ddd">
+<label>Employee</label><br>
+<input type="text" placeholder="enter employee name " name="ename"> <br>
+<label>Manager name</label>
+<input type="text" placeholder="enter manager name " name="mname"> <br>
+<label>Leave Type</label><br>
+<select>
+	<option value="paid leave">paid leave </option>
+	<option value="normal leave">normal leave</option>
+	<option value ="other leave">other leave</option>
+</select><br>
+<label>Consumed</label><br>
+<input type="number" name ="cm" disabled="disabled"><br>
+<label>Available</label><br>
+<input type="number" disabled="disabled" value="20"> <br>
+<label>start date </label><br>
+<input type="date"  id = "fdate" name = "fdate"><br>
+<label>End date</label><br>
+<input type="date" id = "tdate" onchange="countdays()" name = "tdate"><br>
+<label>Days</label><br>
+<input type = "number" id = "days" name = "days"><br>
+<p id = "hh"></p><br>
+<p id="err" style="color: red;"></p>
+<label>Remarks</label><br>
+<textarea rows="5" cols="10"></textarea><br>
+
+<input type="submit" id ="apply" disabled="disabled">
+</div>
+<script>
+	function countdays(){
+	var fd = document.getElementById("fdate").value;
+	var td =  document.getElementById("tdate").value;
+	
+	var d1 = new Date(fd);
+	var d2 = new Date(td);
+	
+	var timediff = d2.getTime()-d1.getTime();
+	
+	var result = timediff/(60000*60*24);
+	result = result+1;
+	document.getElementById("hh").innerHTML = result;
+	
+	document.getElementById("days").value = result;
+	if(result<2)
+		{
+			document.getElementById("apply").disabled = false;
+		}
+	else
+		{
+			document.getElementById("err").innerHTML = "you aren't able to apply more then two leaves"
+		
+		}
+	
+	
+	}
+</script>
+</form>
+</body>
+</html>
