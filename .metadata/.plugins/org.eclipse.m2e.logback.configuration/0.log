@@ -13584,3 +13584,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main (3) references
 2022-09-16 10:52:40,565 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springdoctorandpatient\src\main\resources
 2022-09-16 10:52:40,566 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-16 10:52:40,566 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springdoctorandpatient\src\test\resources
+2022-09-28 16:18:00,593 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-28 16:18:28,525 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-28 16:18:28,525 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springMVC\src\main\resources
+2022-09-28 16:18:28,530 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-28 16:18:28,530 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springMVC\src\test\resources
+2022-09-28 16:18:33,250 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-28 16:18:33,250 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springdoctorandpatient\src\main\resources
+2022-09-28 16:18:33,252 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-28 16:18:33,252 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Myrepository\newrepository\springdoctorandpatient\src\test\resources
