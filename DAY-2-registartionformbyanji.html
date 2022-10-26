@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+        }
+        .flex-container
+        {
+            display: flex;
+  flex-wrap: nowrap;
+ 
+
+        }
+        body
+        {
+            background-image: url("https://th.bing.com/th/id/OIP.cXZa94K9rYov_K-L8EK89gHaEK?pid=ImgDet&rs=1");
+            background-size: cover;
+            height: 500px;
+            background-repeat: no-repeat;
+            color: rgb(250, 120, 27);
+            
+        }
+        .d1
+        {
+           margin-top: 80px;
+            text-align: center;
+            width: 500px;
+            margin-left: 300px;
+            flex-direction: row;
+        }
+         input
+        {
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+        }
+         label
+        {
+            text-transform: capitalize;
+            font-weight: bolder;
+           
+        }
+        .d2
+        {
+            
+            margin-top: 80px;
+            text-align: center;
+            width: 500px;
+           
+            flex-direction: row;
+            
+        }
+        h1
+        {
+           margin-bottom: 10px; 
+        }
+        p{
+            margin-bottom: 30px;
+        }
+        textarea
+        {
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+        }
+        select
+        {
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+    <div class="d1"  >
+      <h1>Registartion Form</h1>
+      <p>Using Dropdown List</p>
+      <br>
+
+      <label>Firts Name</label><br>
+      <input type="text"><br>
+
+      <label>Last Name </label><br>
+      <input type="text"><br>
+
+      <label>Age</label><br>
+      <input type="number"><br>
+      <label>Dob</label><br>
+      <input type="date"><br>
+
+      <label>choose your dp</label><br>
+     <input type="file"><br>
+      <label>select city</label><br>
+
+      <select>
+        <optgroup>
+           <option>select</option>
+           <option>AP</option>
+           <option>telangana</option>
+        </optgroup>
+      </select><br>
+      <label>Address</label><br>
+      <textarea></textarea><br>
+      <input type="submit" style="margin-top:20px ;width: 60px; background-color: rgb(253, 85, 19) ; font-weight: bold; color: white;">
+
+
+    </div>
+    <div class="d2" >
+        <h1>Sign Up</h1>
+        <p>(Using selection)</p>
+      <br>
+
+        <label>Name</label><br>
+      <input type="text" placeholder="Enter the first Name"><br>
+
+      <label>Email </label><br>
+      <input type="email" placeholder="Enter Email"><br>
+      <label>Password </label><br>
+      <input type="password" placeholder="enter messege"><br>
+      <label>Message</label><br>
+      <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+      <label>Select State</label>
+      <select>
+        <option>
+            Telanagana
+        </option>
+        <option>
+            Andhra pradesh
+        </option>
+        <option>
+            Tamilanadu
+        </option>
+        <option>
+            Kerala
+        </option>
+      </select><br>
+
+      <input type = "submit"  style="margin-top:20px ;width: 60px; background-color: rgb(253, 85, 19) ; font-weight: bold; color: white;">
+
+
+
+    </div>
+</div>
+
+</body>
+</html>
