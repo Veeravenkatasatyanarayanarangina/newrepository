@@ -1,0 +1,28 @@
+
+#studenthome {
+
+    display: inline-block;
+}
+h1{
+
+    color: rgb(120, 233, 141);
+}
+#listdetails h2{
+
+    color: rgb(210, 79, 79);
+}
+th{
+
+    color: rgb(79, 105, 156);
+    padding: 10px;
+}
+#listdetails table,td,th{
+    
+    border: 1px solid black; 
+}
+label{
+    color: rgb(184, 85, 14);
+}
+th{
+    background-color: rgb(189, 198, 207);
+}
